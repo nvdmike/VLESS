@@ -225,7 +225,6 @@ chmod +x /usr/local/bin/sharelink
 systemctl restart xray
 
 echo "Xray-core успешно установлен"
-mainuser
 
 # Создаем файл с подсказками
 touch $HOME/help
