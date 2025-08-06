@@ -238,5 +238,4 @@ cat << 'EOF' > $HOME/help
 Файл конфигурации находится по адресу: /usr/local/etc/xray/config.json
 
 Команда для перезагрузки ядра Xray: systemctl restart xray
-
 EOF
