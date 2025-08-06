@@ -57,6 +57,11 @@ cat << EOF > /usr/local/etc/xray/config.json
             "protocol": "vless",
             "settings": {
                 "clients": [
+                    {
+                        "email": "default",
+                        "id": "$uuid",
+                        "flow": "xtls-rprx-vision"
+                    }
                 ],
                 "decryption": "none"
             },
